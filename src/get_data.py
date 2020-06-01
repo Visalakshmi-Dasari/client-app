@@ -28,6 +28,12 @@ def add_client_row():
     container.upsert_item(client_data)
     return 'Successful'
 
+@app.route('/v2/clients', methods=['POST'])
+def add_client_row():
+    client_data = request.get_json()
+    container.upsert_item(client_data)
+    return 'Successfully Done'
+
 
 @app.route('/v1/clients', methods=['PUT'])
 def delete_client():
