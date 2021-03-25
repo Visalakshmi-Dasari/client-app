@@ -1,6 +1,6 @@
 flask==1.1.2
 uWSGI==2.0.18
-pyyaml==5.3.1
+pyyaml==5.4
 flask_swagger_ui==3.25.0
 azure-keyvault==4.1.0
 azure-cli==2.5.1
